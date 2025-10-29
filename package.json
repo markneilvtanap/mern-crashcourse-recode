@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "cross-env NODE_ENV=development nodemon ./backend/server.js",
-    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend && cd frontend && rm -rf node_modules package-lock.json && npm install && npm install rollup --force",
     "start": "NODE_ENV=production node ./backend/server.js"
   },
   "type": "module",
